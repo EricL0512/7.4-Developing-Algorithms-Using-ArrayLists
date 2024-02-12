@@ -72,4 +72,14 @@ public class Algorithms {
         if (difference > difference1) return difference;
         return difference1;
     }
+    public double meanAverage(ArrayList<Double> doubles) {
+        double mean = 0;
+        for (double d: doubles) {
+            mean += d;
+        }
+        return mean/doubles.size();
+    }
+    public ArrayList<Integer> reverseArrayList(ArrayList<Integer> integers) {
+
+    }
 }

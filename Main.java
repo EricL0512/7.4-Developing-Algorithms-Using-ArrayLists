@@ -41,5 +41,9 @@ public class Main {
         System.out.println(a.largestDifference(new ArrayList<>(Arrays.asList(2, 3, 4)), new ArrayList<>(Arrays.asList(-1, -2, -3))));
         System.out.println(a.largestDifference(new ArrayList<>(Arrays.asList(1, 2, 3)), new ArrayList<>(Arrays.asList(3, 2, 1))));
         System.out.println(a.largestDifference(new ArrayList<>(Arrays.asList(-100, -10, -1)), new ArrayList<>(Arrays.asList(1, 10, 100))));
+        System.out.println("Mean Average");
+        System.out.println(a.meanAverage(new ArrayList<>(Arrays.asList(1.5, 3.5, 5.5))));
+        System.out.println(a.meanAverage(new ArrayList<>(Arrays.asList(1.0, 2.0, 3.0))));
+        System.out.println(a.meanAverage(new ArrayList<>(Arrays.asList(5.0, 5.0, 5.0))));
     }
 }
