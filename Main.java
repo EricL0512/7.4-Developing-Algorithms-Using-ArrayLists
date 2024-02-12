@@ -29,6 +29,17 @@ public class Main {
         System.out.println(a.minimumValue(new ArrayList<>(Arrays.asList(3, 2, 1))));
         System.out.println(a.minimumValue(new ArrayList<>(Arrays.asList(1, 2, 7, 3))));
         System.out.println(a.minimumValue(new ArrayList<>(Arrays.asList(10, 5, 0))));
-
+        System.out.println("Shortest String");
+        System.out.println(a.shortestString(new ArrayList<>(Arrays.asList("Hello,", "world", "!"))));
+        System.out.println(a.shortestString(new ArrayList<>(Arrays.asList("a", "ab", "abc"))));
+        System.out.println(a.shortestString(new ArrayList<>(Arrays.asList("Goodbye", "Ciao", "Chao"))));
+        System.out.println("Longest String");
+        System.out.println(a.longestString(new ArrayList<>(Arrays.asList("Hello,", "world", "!"))));
+        System.out.println(a.longestString(new ArrayList<>(Arrays.asList("a", "ab", "abc"))));
+        System.out.println(a.longestString(new ArrayList<>(Arrays.asList("Goodbye", "Ciao", "Chao"))));
+        System.out.println("Largest Difference");
+        System.out.println(a.largestDifference(new ArrayList<>(Arrays.asList(2, 3, 4)), new ArrayList<>(Arrays.asList(-1, -2, -3))));
+        System.out.println(a.largestDifference(new ArrayList<>(Arrays.asList(1, 2, 3)), new ArrayList<>(Arrays.asList(3, 2, 1))));
+        System.out.println(a.largestDifference(new ArrayList<>(Arrays.asList(-100, -10, -1)), new ArrayList<>(Arrays.asList(1, 10, 100))));
     }
 }

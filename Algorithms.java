@@ -52,4 +52,24 @@ public class Algorithms {
         }
         return min;
     }
+    public String shortestString(ArrayList<String> strings) {
+        String shortestString = strings.get(0);
+        for(String str: strings) {
+            if (shortestString.length() > str.length()) shortestString = str;
+        }
+        return shortestString;
+    }
+    public String longestString(ArrayList<String> strings) {
+        String longestString = strings.get(0);
+        for(String str: strings) {
+            if (longestString.length() < str.length()) longestString = str;
+        }
+        return longestString;
+    }
+    public int largestDifference(ArrayList<Integer> integers, ArrayList<Integer> integers1) {
+        int difference = maximumValue(integers) - minimumValue(integers1);
+        int difference1 = maximumValue(integers1) - minimumValue(integers);
+        if (difference > difference1) return difference;
+        return difference1;
+    }
 }
